@@ -7,7 +7,7 @@ Write a function `wrap` that accepts a function `func` as an argument and return
 - `wrapped` should maintain compatibility with `func`. In other words, `wrapped` should accept arguments the same as `func`.
 
 The code you write should pass the following test cases. Be mindful that your implementation of `wrap` should be generic and pass an arbitrary number of test cases.
-
+```
 // TODO: define function according to spec above
 // const wrap = (func) => {
 // };
@@ -40,5 +40,5 @@ wrappedGross("apple");  // "apple is yummy"
 wrappedGross("banana"); // "banana is yummy"
 wrappedGross("peach");  // null
 wrappedGross("apple");  // null
-
+```
 // for solution check index.js file
